@@ -46,7 +46,7 @@ You will need:
 - A GitHub app integration. You can [follow the guide](https://docs.github.com/en/apps/creating-github-apps/registering-a-github-app/registering-a-github-app) to register one.
   - Required permissions: `workflow_job`
 - Somewhere to run Harvest
-  - Harvest is published as a Docker image at ghcr.X. The image includes `orchard`, and can work with `--run-orchard-controller`. It does not currently include `tart`, and will not work with `--run-orchard-worker`.
+  - Harvest is published as a [Docker image](https://ghcr.io/randymarsh77/harvest). The image includes `orchard`, and can work with `--run-orchard-controller`. It does not currently include `tart`, and will not work with `--run-orchard-worker`.
   - Harvest is not currently available from any package managers, so you'll need to build and run the project if you aren't using the Docker image. See the [Quick Start](#quick-start) section.
 - One or more machines to function as Orchard workers. Can be the same machine running Harvest and/or the Orchard controller.
 
